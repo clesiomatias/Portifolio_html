@@ -198,7 +198,7 @@ h2 {
   height: 300px;
   width: 400px;
   margin: 3rem 0 0 0;
-  background-image: url("./landscape.jpeg");
+  background-image: url("./imgs/landscape.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,6 +274,45 @@ h2 {
   justify-content: center;
 }
 
+.em-breve-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.em-breve-wrapper h1 {
+  font-family: "Anek Malayalam", sans-serif;
+  color: #12283b;
+}
+
+.em-breve-wrapper img {
+  width: 50%;
+  height: auto;
+  box-shadow: 5px 5px 0px 0px #ccc;
+  animation: animaimg 5s ease-in-out infinite;
+}
+
+@keyframes animaimg {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  50% {
+    transform: rotate3d(1, 1, 0, 20deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+}
+.voltar {
+  position: absolute;
+  text-decoration: none;
+  font-family: "Anek Malayalam", sans-serif;
+  color: #1a93d9;
+  font-weight: bold;
+  font-size: 24px;
+}
 @media (max-width: 800px) {
   .social-media {
     display: flex;
@@ -301,5 +340,19 @@ h2 {
   .card:hover > .card-wrapper::before {
     height: 190px;
     width: 190px;
+  }
+  .voltar {
+    margin-left: 75%;
+    margin-bottom: 2px;
+  }
+  .em-breve-wrapper {
+    position: absolute;
+    margin-top: 0;
+  }
+  .em-breve-wrapper h1 {
+    font-size: 14px;
+  }
+  .em-breve-wrapper img {
+    width: 75%;
   }
 }
