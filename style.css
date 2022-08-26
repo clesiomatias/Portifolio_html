@@ -291,11 +291,7 @@ h2 {
   width: 50%;
   height: auto;
   box-shadow: 5px 5px 0px 0px #ccc;
-  animation: animaimg 5s ease-in-out infinite;
-}
-
-@keyframes animaimg {
-  0% {
+  animation: animaimg 5s ease-in-out infinite;menu-
     transform: rotate3d(0, 0, 0, 0);
   }
   50% {
@@ -354,5 +350,12 @@ h2 {
   }
   .em-breve-wrapper img {
     width: 75%;
+  }
+  h2 {
+    text-align: center;
+  }
+  .menu-items ul li a{
+    font-size: 25px;
+
   }
 }
