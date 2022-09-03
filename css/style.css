@@ -291,9 +291,15 @@ h2 {
   width: 50%;
   height: auto;
   box-shadow: 5px 5px 0px 0px #ccc;
-  animation: animaimg 5s ease-in-out infinite;menu-
-    transform: rotate3d(0, 0, 0, 0);
+  animation: animaimg 5s ease-in-out infinite;
+  menu-transform: rotate3d(0, 0, 0, 0);
   }
+
+@keyframes animaimg{
+  0% {
+   transform: rotate3d(0, 0, 0, 0);
+  }
+
   50% {
     transform: rotate3d(1, 1, 0, 20deg);
   }

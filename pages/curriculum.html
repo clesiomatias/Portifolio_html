@@ -4,14 +4,286 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css" />
+    <! - icones - >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/cvStyle.css" />
     <title>Currículo</title>
   </head>
   <body>
-    <a href="../index.html" class="voltar">Voltar</a>
-    <h1 style="color: red; margin-top: 50px; padding: 30px">
-      Meu Currículo estará aqui
-    </h1>
-    <script src="../script.js"></script>
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav_logo"> Matias</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="../index.html" class="nav_link active-link">
+                <i class="bx bx-home nav_icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#perfil" class="nav_link">
+                <i class="bx bx-user nav_icon"></i>Perfil
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#educacao" class="nav_link">
+                <i class="bx bx-book nav_icon"></i>Educação
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#habils" class="nav_link">
+                <i class="bx bx-receipt nav_icon"></i>Habilidades
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#experiencia" class="nav_link">
+                <i class="bx bx-briefcase-alt nav_icon"></i>Experiencia
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="./certificates.html" class="nav_link">
+                <i class="bx bx-award nav_icon"></i>Certificações
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt nav_icon"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main bd-container">
+      <div class="resume">
+        <div class="resume_left">
+          <section class="home" id="home">
+            <div class="home_container section bd-grid">
+              <div class="home_data bd-grid">
+                <img
+                  src="../imgs/perfil1.jpg"
+                  alt="Foto de aperfil"
+                  class="home_img"
+                />
+                <h1 class="home_title"><b>Clésio</b> Matias</h1>
+                <h3 class="home_profession">
+                  Web FullStack Developer<br />Python/ReactJS
+                </h3>
+                <div>
+                  <a download="" href="../pdf/CV.pdf" class="home_button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+              <div class="home_address bd-grid">
+                <span class="home_information">
+                  <i class="bx bx-map home_icon"></i> Faz. Ponta da Serra- Zona
+                  Rural - Brodowski-SP
+                </span>
+                <span class="home_information">
+                  <i class="bx bx-envelope home_icon"></i>
+                  clesiofmatias@gmail.com
+                </span>
+                <span class="home_information">
+                  <i class="bx bx-phone home_icon"></i>
+                  +55 (16) 99374-8789
+                </span>
+              </div>
+            </div>
+          </section>
+          <section class="social section">
+            <h2 class="section-title">Redes Sociais</h2>
+            <div class="social_container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/cl%C3%A9sio-matias-0533011a2/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BMkmX7SQKRX6Oia1HO%2BRyxQ%3D%3D"
+                class="social_link"
+                target="_blank"
+              >
+                <i class="bx bxl-linkedin-square social_icon"></i>@clesiomatias
+              </a>
+              <a
+                href="https://www.facebook.com/clesio.matias.583"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="bx bxl-facebook social_icon"></i>@clesio-matias
+              </a>
+              <a
+                href="https://www.instagram.com/clesiomatias/"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="bx bxl-instagram social_icon"></i>@clesiofmatias
+              </a>
+              <a
+                href="https://github.com/clesiomatias/"
+                target="_blank"
+                class="social_link"
+              >
+                <i class="bx bxl-github social_icon"></i>@clesiomatias
+              </a>
+            </div>
+          </section>
+          <section class="profile section" id="perfil">
+            <h2 class="section-title">Perfil</h2>
+            <p class="profile_description">
+              Clésio Fernandes Matias, profissional junior em desenvolvimento
+              fullstack web. Apaixonado por tecnologia e obtenção de
+              conhecimento, tendo se iniciado no ano de 2010 estudando a
+              linguagem de programação Python.
+              <br />
+              Ainda não teve a oportunidade de trabalhar profissionalmente na
+              área, mesmo tendo projetos ativos e diversos pequenos projetos
+              freelancer.
+              <br />
+              Pai, marido e assíduo praticante de seu hobby , que já foi
+              profissão, adora ficar em sua oficina, onde forja laminas,
+              atividade que exerce desde os 15 anos.<br />
+              Clésio também se interessa por artes marciais, tendo praticado
+              alguns estilos de kung fu desde sua primeira infancia até adulto,
+              ama ler ou ouvir um bom audio-book. Mas indubitavelmente sua
+              atividade preferida é resolver problemas usando códigos!
+              <br />
+              Caso tenha interesse em ter em sua equipe ou empresa um
+              profissional dedicado e bastante interessado, entre em contato com
+              o Clésio através de seu perfil do Linkedin ou demais contatos aqui
+              presentes.
+            </p>
+          </section>
+          <section class="educacao section" id="educacao">
+            <h2 class="section-title">Educação</h2>
+            <div class="education_container bd-grid">
+              <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+
+                <div class="education_data bd-grid">
+                  <h3 class="education_title">
+                    Tecnólogo em Análise e Desenvolvimento de Sistemas
+                  </h3>
+                  <span class="education_studies"
+                    >Centro Universitário Cidade Verde
+                  </span>
+                  <span class="education_year">2020 - 2022</span>
+                </div>
+              </div>
+              <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+
+                <div class="education_data bd-grid">
+                  <h3 class="education_title">
+                    Curso de Oficial de Operação Ferroviária
+                  </h3>
+                  <span class="education_studies"
+                    >Ferrovia Centro Atlantica</span
+                  >
+                  <span class="education_year">2003</span>
+                </div>
+              </div>
+              <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                  <span class="education_line"></span>
+                </div>
+
+                <div class="education_data bd-grid">
+                  <h3 class="education_title">
+                    Designer Gráfico, Editor de Vídeos e Motion Design
+                  </h3>
+                  <span class="education_studies">Diversas fontes</span>
+                  <span class="education_year">2007 - 2009</span>
+                </div>
+              </div>
+              <div class="education_content">
+                <div class="education_time">
+                  <span class="education_rounder"></span>
+                </div>
+
+                <div class="education_data bd-grid">
+                  <h3 class="education_title">FullStack Developer</h3>
+                  <span class="education_studies"
+                    >DIO, Curso em Vídeo,JDev Treinamento
+                  </span>
+                  <span class="education_year">2010 - 2022</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="skills section" id="habils">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills_content bd-grid">
+              <ul class="skills_data">
+                <li class="skills_name">
+                  <span class="skill_circle"></span>PYTHON
+                </li>
+                <li class="skills_name">
+                  <span class="skill_circle"></span>JAVA
+                </li>
+                <li class="skills_name">
+                  <span class="skill_circle"></span>JAVASCRIPT
+                </li>
+                <li class="skills_name">
+                  <span class="skill_circle"></span>HTML5
+                </li>
+                <li class="skills_name">
+                  <span class="skill_circle"></span>CSS3
+                </li>
+              </ul>
+              <ul class="skills_data">
+                <li class="skills_name">
+                  <span class="skill_circle"></span>REACTJS
+                </li>
+                <li class="skills_name">
+                  <span class="skill_circle"></span>DJANGO
+                </li>
+                <li class="skills_name">
+                  <span class="skill_circle"></span>FLASK
+                </li>
+                <li class="skills_name">
+                  <span class="skill_circle"></span>GIT / GITHUB
+                </li>
+                <li class="skills_name">
+                  <span class="skill_circle"></span>SQL (BD's Relacionais)
+                </li>
+              </ul>
+            </div>
+          </section>
+          .
+        </div>
+        <div class="resume_right">
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience_container bd-grid">
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+
+                <div class="experience_data bd-grid">
+                  <h3 class="expericence_title"></h3>
+                  <span class="experience_company"></span>
+                  <p class="experience_description"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/cv.js"></script>
   </body>
 </html>
