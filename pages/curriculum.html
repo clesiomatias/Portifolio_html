@@ -45,13 +45,13 @@
             </li>
 
             <li class="nav_item">
-              <a href="#experiencia" class="nav_link">
+              <a href="#experience" class="nav_link">
                 <i class="bx bx-briefcase-alt nav_icon"></i>Experiencia
               </a>
             </li>
 
             <li class="nav_item">
-              <a href="./certificates.html" class="nav_link">
+              <a href="#certificados" class="nav_link">
                 <i class="bx bx-award nav_icon"></i>Certificações
               </a>
             </li>
@@ -63,7 +63,7 @@
       </nav>
     </header>
     <main class="l-main bd-container">
-      <div class="resume">
+      <div class="resume" id="area-cv">
         <div class="resume_left">
           <section class="home" id="home">
             <div class="home_container section bd-grid">
@@ -78,7 +78,10 @@
                   Web FullStack Developer<br />Python/ReactJS
                 </h3>
                 <div>
-                  <a download="" href="../pdf/CV.pdf" class="home_button-movil"
+                  <a
+                    download=""
+                    href="../pdf/Curriculo_Clesio_Matias.pdf"
+                    class="home_button-movil"
                     >Download</a
                   >
                 </div>
@@ -99,6 +102,17 @@
               </div>
             </div>
           </section>
+          <i
+            class="bx bx-moon change-theme"
+            title="Theme"
+            id="theme-button"
+          ></i>
+          <i
+            class="bx bx-download generate-pdf"
+            id="resume-button"
+            title="Gerador de PDF"
+          ></i>
+
           <section class="social section">
             <h2 class="section-title">Redes Sociais</h2>
             <div class="social_container bd-grid">
@@ -158,6 +172,22 @@
               presentes.
             </p>
           </section>
+          <section class="languages section">
+            <h2 class="section-title">Idiomas</h2>
+            <ul class="languages_content bd-grid">
+              <li class="languages_name">
+                <span class="language_circle"></span>Portugues
+                <span class="language_level"> - Nativo</span>
+              </li>
+              <li class="languages_name">
+                <span class="language_circle"></span>Ingles
+                <span class="language_level"> - Intermediário</span>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="resume_right">
           <section class="educacao section" id="educacao">
             <h2 class="section-title">Educação</h2>
             <div class="education_container bd-grid">
@@ -261,11 +291,12 @@
               </ul>
             </div>
           </section>
-          .
-        </div>
-        <div class="resume_right">
           <section class="experience section" id="experience">
-            <h2 class="section-title">Experience</h2>
+            <h2 class="section-title">Experiencia</h2>
+            <h5 class="experience_explanation">
+              As experiencias apresentadas nesse currículo são referentes apenas
+              àquelas que tem relevancia ao uso de tecnologia
+            </h5>
             <div class="experience_container bd-grid">
               <div class="experience_content">
                 <div class="experience_time">
@@ -274,16 +305,79 @@
                 </div>
 
                 <div class="experience_data bd-grid">
-                  <h3 class="expericence_title"></h3>
-                  <span class="experience_company"></span>
-                  <p class="experience_description"></p>
+                  <h3 class="expericence_title">
+                    Oficial de Operações Ferroviárias
+                  </h3>
+                  <span class="experience_company"
+                    >2003-2005 | Ferrovia Centro Atlantica</span
+                  >
+                  <p class="experience_description">
+                    Encarregado de manobras para carga, descarga e demais
+                    operações em pátio terminal ferroviário
+                  </p>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                  <span class="experience_line"></span>
+                </div>
+
+                <div class="experience_data bd-grid">
+                  <h3 class="expericence_title">Assessor de Comunicação</h3>
+                  <span class="experience_company"
+                    >2008-2012 | Prefeitura Municipal de Nanuque-MG</span
+                  >
+                  <p class="experience_description">
+                    Responsável pela captura de imagens (fotos e videos), edição
+                    de videos promocionais, criação de banners, folders,
+                    panfletos e demais materiais para campanhas públicas.
+                    Responsável pelo abastecimento e manutenção do Portal
+                    Público, site e redes sociais da prefeitura
+                  </p>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                </div>
+
+                <div class="experience_data bd-grid">
+                  <h3 class="expericence_title">Designer Gráfico</h3>
+                  <span class="experience_company"
+                    >2013-2014 | Gráfica Modelo</span
+                  >
+                  <p class="experience_description">
+                    Responsável pela criação de diversos materiais promocionais,
+                    bem como diagramação, edição, desenho e vetorização de
+                    imagens.
+                  </p>
                 </div>
               </div>
             </div>
           </section>
+
+          <section class="certificates section" id="certificados">
+            <h2 class="section-title">Certificados</h2>
+            <h3 class="certificates_explanation">
+              Confira todos os meus certificados atualizados em minha pagina
+            </h3>
+            <br />
+            <a
+              href="https://clesiomatias-portfolio.netlify.app/pages/certificates.html"
+              class="link_certificates"
+              ><span class="certificates_circle"></span
+              >https://clesiomatias-portfolio.netlify.app/pages/certificates.html</a
+            >
+          </section>
         </div>
       </div>
     </main>
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
+    </a>
+    <!-- html para pdf  -->
+    <script src="../js/html2pdf.bundle.min.js"></script>
 
     <script src="../js/cv.js"></script>
   </body>
