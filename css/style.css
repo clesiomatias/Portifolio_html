@@ -198,7 +198,7 @@ h2 {
   height: 300px;
   width: 400px;
   margin: 3rem 0 0 0;
-  background-image: url("./imgs/landscape.jpeg");
+  background-image: url("../imgs/landscape.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -293,11 +293,11 @@ h2 {
   box-shadow: 5px 5px 0px 0px #ccc;
   animation: animaimg 5s ease-in-out infinite;
   menu-transform: rotate3d(0, 0, 0, 0);
-  }
+}
 
-@keyframes animaimg{
+@keyframes animaimg {
   0% {
-   transform: rotate3d(0, 0, 0, 0);
+    transform: rotate3d(0, 0, 0, 0);
   }
 
   50% {
@@ -360,8 +360,7 @@ h2 {
   h2 {
     text-align: center;
   }
-  .menu-items ul li a{
+  .menu-items ul li a {
     font-size: 25px;
-
   }
 }
