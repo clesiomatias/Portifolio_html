@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anek Malayalam", sans-serif;
+  background-color: rgb(196, 239, 252);
+}
+.em_construcao {
+  background-color: red;
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_tabs {
+  width: 90%;
+  margin: 100px auto;
+  position: relative;
+  background-color: #ccc;
+}
+.nav_tabs ul {
+  list-style: none;
+}
+.nav_tabs ul li {
+  float: left;
+}
+.nav_tabs label {
+  width: 180px;
+  padding: 20px;
+  background-color: #788aee;
+  display: block;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  margin-left: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 550;
+  color: white;
+}
+.rd_tabs:checked ~ label {
+  background-color: rgb(0, 199, 199);
+}
+.rd_tabs {
+  display: none;
+}
+.content {
+  border-top: 5px solid rgb(0, 199, 199);
+  background-color: #cff;
+  display: none;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.rd_tabs:checked ~ .content {
+  display: block;
+}
+.aba {
+  block-size: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.certificado {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.certificado:hover {
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 1);
+  transform: scale(1.05);
+  transition: 0.4s ease-in-out;
+}
+@media screen and (max-width: 720px) {
+  .nav_tabs label {
+    width: 70px;
+    padding: 5px;
+  }
+
+  .aba {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 920px) {
+  .aba {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .certificado {
+    width: 80%;
+  }
+}

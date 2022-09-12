@@ -4,16 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="shortcut icon" href="../favico.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../css/certicatesStyle.css" />
+    <link rel="shortcut icon" href="../imgs/favico.png" type="image/x-icon" />
     <title>Certificados</title>
   </head>
   <body>
-    <a href="../index.html" class="voltar">Voltar</a>
+    <div class="em_construcao">EM CONSTRUÇÃO</div>
+    <nav class="nav_tabs">
+      <ul>
+        <li>
+          <input
+            type="radio"
+            name="tabs"
+            class="rd_tabs"
+            id="tab-unifcv"
+            checked
+          />
+          <label for="tab-unifcv">UniFCV</label>
+          <div class="content"><section class="aba" id="unifcv"></section></div>
+        </li>
+        <li>
+          <input type="radio" name="tabs" class="rd_tabs" id="tab-dio" />
+          <label for="tab-dio" id="lDio">Digital Innovation One</label>
+          <div class="content"><section class="aba" id="dio"></section></div>
+        </li>
+        <li>
+          <input type="radio" name="tabs" class="rd_tabs" id="tab-jdev" />
+          <label for="tab-jdev" id="lJdev">JDev Treinamentos</label>
+          <div class="content"><section class="aba" id="jdev"></section></div>
+        </li>
+      </ul>
+    </nav>
 
-    <h1 style="color: red; margin-top: 50px; padding: 30px">
-      Aqui apresentarei meus diplomas e certificações!
-    </h1>
-    <script src="../script.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/certificatesJs.js"></script>
   </body>
 </html>
