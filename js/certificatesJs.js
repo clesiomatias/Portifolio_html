@@ -50,7 +50,6 @@ let dioImgs = [
   "BBA71A23.jpg",
   "BCDEEB34.jpg",
   "BE371A1E.jpg",
-  "BE731A1E.jpg",
   "C20C1A41.jpg",
   "187E7E51.jpg",
   "1E782384.jpg",
